@@ -6,10 +6,8 @@ public class Main {
         Horse bullet = new Horse("straw", "field", 1);
 
         Animal [] array = {barsik, ball, bullet};
-        
+
         for (Animal animal : array)
             Vet.treatAnimal(animal);
-
-
     }
 }
